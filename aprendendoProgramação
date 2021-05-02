@@ -1,0 +1,169 @@
+package Exercício2;
+import java.util.*;  
+package Exercício;
+import java.util.*;  
+
+public class exercicio {
+ public static void main (String args[]) {
+	 
+	int n1;
+	int n2;
+	
+	Scanner teclado; 
+	
+	 Scanner teclado = new Scanner(System.in);
+ 	 System.out.println("Digite o primeiro número");
+	 n1 = teclado.nextInt();
+	 System.out.println("Digite o segundo número");
+	 n2 = teclado.nextInt();	 
+
+	 System.out.println("Adição:" + (n1 + n2));
+	 System.out.println("Subtração:" + (n1 - n2));
+	 System.out.println("Multiplicação:" + (n1 * n2));
+	 System.out.println("Divisão:" + (n1/n2));
+	  
+	 
+	 
+ }
+}
+
+public class exercicio {
+ public static void main (String args[]) {
+	 
+	 int V1, V2 , V3;
+	 
+	 Scanner entrada; 
+	 entrada = new Scanner(System.in);
+	 System.out.println("Digite o primeiro número");
+	 V1 = entrada.nextInt();
+	 System.out.println("Digite o segundo número");
+	 V2 = entrada.nextInt();
+	 System.out.println("Digite o terceiro número");
+	 V3 = entrada.nextInt();
+	 	 
+
+	 System.out.println("v1 + v2:" + (V1 + V2));
+	 System.out.println("v2-v1:" + (V2 - V1));
+	 System.out.println("v*v1:" + (V3 * V1));
+	 System.out.println("v3+v2:" + (V3 + V2));
+	 System.out.println("v3-v2:" + (V3 - V2));
+	 System.out.println("v1+v2+v3:" + (V1 + V2 + V3));
+	 
+	 
+	 
+ }
+}
+-------------------------------------------------
+package Exercc.java; 3 
+import java.time.LocalDateTime;
+import java.util.*; 
+public class exercc {
+
+	public static void main(String[] args) {
+		
+  		int anoNascimento; 
+  		int anoAtual;
+  		
+	  	//Entradas de dados
+  		Scanner teclado = new Scanner(System.in);
+  		
+  		System.out.println("Digite seu ano de Nascimento:");
+  		anoNascimento = teclado.nextInt();
+  		
+  		LocalDateTime data1 = LocalDateTime.now();
+  		anoAtual = data1.getYear();
+  		
+ 		System.out.println("Idade:" + (anoAtual-anoNascimento));
+	}
+	}
+		
+-------------------------------------------------
+package Exercc.java 4;
+import java.util.*; 
+public class exercc {
+
+	public static void main(String[] args) {
+		
+		double valor, valorNovo;
+		
+		 
+		 Scanner entrada; 
+		 entrada = new Scanner(System.in);
+		 System.out.println("Digite o valor:");
+		 valorNovo = entrada.nextDouble();
+		 valor = valorNovo;
+		 	 
+
+		 System.out.println("Valor:" + (valor + valorNovo * (15.8/100)));
+		 
+		 
+		 
+	 }
+	}
+		--------------------------------------------------
+    package Exercc.java 5;
+import java.util.*; 
+public class exercc {
+
+	public static void main(String[] args) {
+		
+		double b, h;
+		
+		
+		 
+		 Scanner entrada; 
+		 entrada = new Scanner(System.in);
+		 System.out.println("Digite o valor da Base:");
+		 b = entrada.nextDouble();
+		 
+		 System.out.println("Digite o valor da Altura:");
+		 h = entrada.nextDouble();
+		 
+		 	 
+
+		 System.out.println("O VAlor da Área:" + (b*h/2)) ;
+		 
+		 
+		 
+	 }
+	}
+  -----------------------------------------------------------------
+  package Exercc.java;
+import java.util.*; 
+public class exercc {
+
+	public static void main(String[] args) {
+		final double valor_horas=32.00;
+  		String  nomeDoFuncionario;
+  		double horas;
+  		int dependente; 
+  		
+  		
+	  	//Entradas de dados
+  		Scanner teclado = new Scanner(System.in);
+  		
+  		System.out.println("Digite o nome:");
+  		nomeDoFuncionario = teclado.next();
+  		
+  		System.out.println("Digite a hora:");
+  		horas = teclado.nextDouble();
+  		
+  		System.out.println("numeroFuncionario:");
+  		dependente = teclado.nextInt();
+  		
+  		double salarioBruto =horas *32 + dependente * 40;
+  		double valorINSS = salarioBruto * 8.5 / 100;
+  		double valorIR = salarioBruto * 5/100;
+  		double salarioLiquido = salarioBruto * 5 / 100;
+  		
+  		
+  		System.out.println("Nome :" + nomeDoFuncionario);
+  		System.out.println("Bruto:" + salarioBruto);
+  		System.out.println("INSS:" + valorINSS);
+  		System.out.println("IR:" + valorIR);
+  		System.out.println("Líquido:" + salarioLiquido);
+  		
+  		
+	}
+	}
+  --------------------------
